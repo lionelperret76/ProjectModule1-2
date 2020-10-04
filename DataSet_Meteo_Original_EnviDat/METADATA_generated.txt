@@ -1,0 +1,46 @@
+SMET 1.1 ASCII
+[HEADER]
+note = =================================================================================================================================================
+note = Meteorological and snowpack measurements from Weissfluhjoch, Davos, Switzerland.
+note = Version: 7
+note = Creation date: 2017-07-19T15:06
+note = (C) Copyright WSL Institute for Snow and Avalanche Research SLF
+note = -------------------------------------------------------------------------------------------------------------------------------------------------
+note = LICENSE:
+note = This dataset is made available under the Open Database License: http://opendatacommons.org/licenses/odbl/1.0/.
+note = Any rights in individual contents of the database are licensed under the Database Contents License: http://opendatacommons.org/licenses/dbcl/1.0/
+note = -------------------------------------------------------------------------------------------------------------------------------------------------
+note = timestamp: date and time (time zone UTC+1), formatted as YYYY-MM-DDTHH:mm
+note = TA       : air temperature (K)
+note = RH       : relative humidity [0-1]
+note = VW       : wind speed (m/s) at 5 m above ground surface
+note = DW       : wind direction (degrees) at 5 m above ground surface
+note = ISWR     : incoming short wave radiation (W/m^2)
+note = OSWR     : reflected short wave radiation (W/m^2)
+note = ILWR     : incoming long wave radiation (W/m^2)
+note = OLWR     : outgoing long wave radiation (W/m^2)
+note = PSUM     : undercatch corrected precipitation (mm)
+note = HS_M     : manually observed snow depth, once per day (cm)
+note = HS       : automatic measured snow depth (cm)
+note = TSG      : ground temperature, just below ground surface (K)
+note = TSS      : surface temperature (K)
+note = LYSI     : snow lysimeter, measured snowpack runoff (mm w.e.)
+note = SWE_M    : snow water equivalent, determined from manual snow profiles, rescaled for HS_M, bi-weekly values, listed at time 12:00 (mm w.e.)
+note = -------------------------------------------------------------------------------------------------------------------------------------------------
+note = CITATION     : WSL Institute for Snow and Avalanche Research SLF: Meteorological and snowpack measurements from Weissfluhjoch, Davos,
+note =                Switzerland, Dataset, DOI: 10.16904/1.7, 2017.
+note = DOCUMENTATION: For documentation, please refer to:
+note =                for HS_M and SWE_M: DOI 10.1007/s00704-012-0584-3
+note =                for LYSI          : DOI 10.5194/tc-8-257-2014
+note =                for other         : DOI 10.1016/j.coldregions.2013.12.004 and DOI 10.5194/tc-9-2271-2015
+note = =================================================================================================================================================
+station_id = WFJ2
+latitude = 46.82962
+longitude = 9.80934
+altitude = 2540
+nodata = -999
+tz = +01
+fields = timestamp TA RH VW DW ISWR OSWR ILWR OLWR PSUM HS_M HS TSG TSS LYSI SWE_M
+units_offset = 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+units_multiplier = 1 1 1 1 1 1 1 1 1 1 0.01 0.01 1 1 1 1
+[DATA]

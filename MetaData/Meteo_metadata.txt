@@ -1,0 +1,37 @@
+#    Metadata for Meteo.csv file
+
+#    COLUMNS                     UNIT          DESCRIPTION
+
+#    Date                                      Date
+#    Snow_fall                   cm            Snow fall sum of the day
+#    Snow_fall_1                 cm            Snow fall sum of the last day
+#    Snow10To25                  True/false    Snow_fall_3 between 10cm and 25cm
+#    SnowAbove25                 True/false    Snow_fall_3 above 25cm
+#    Temp_min_1                  degree C      Minimum of temperature of the last day
+#    TempBelow7_5                True/false    Temp_min_1 below -7.5 degree
+#    Wind_max_3                  km/h          Maximum of the mean wind of the last 3 days
+#    WindAbove40                 True/false    Wind_max_3 above 40km/h
+#    NewSnowProblem              1 or 0        New Snow Prolem condition = 1, other snow conditions = 0
+#    Temp                        degree C      Air temperature (mean of the day)
+#    Temp_mean_1                 degree C      Mean temperature of the last day
+#    Temp_min                    degree C      Minimum of temperature of the day
+#    Temp_min_3                  degree C      Minmean temperature of the last 3 days
+#    Temp_max                    degree C      Maximum of temperature of the day
+#    Wind                        km/h          Wind speed (mean of the day)
+#    Wind_mean_1                 km/h          Mean wind of the last day
+#    Wind_max                    km/h          Maximum wind of the day
+#    Wind_max_1                  km/h          Maximum wind of the last day
+#    Snow_height                 cm            Snow height measured at 08h00
+#    RH                          [0-1}         relative humidity
+#    ISWR                        W/m^2         incoming short wave radiation 
+#    OSWR                        W/m^2         reflected short wave radiation
+#    ILWR                        W/m^2         incoming long wave radiation
+#    OLWR                        W/m^2         outgoing long wave radiation
+#    TSS                         degree C      Snow surface temperature
+
+
+#    Applied Data Science - CAS - Bern University
+#    Project Module 2 - Lionel Perret
+#    Original dataset used to create Meteo.csv file:
+#    WFJ_MOD: Meteorological and snowpack measurements from Weissfluhjoch, Davos, Switzerland
+#    https://www.envidat.ch/#/metadata/10-16904-1
